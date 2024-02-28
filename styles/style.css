@@ -1,0 +1,55 @@
+:root{
+    --selective-yellow: #FCBA04;
+    --turkey-red: #A50104;
+    --rosewood: #590004;
+    --black-bean: #250001;
+    --light-coral: #F49390;
+}
+
+body{
+    min-height: 100vh;
+    font-size: 1.6rem;
+    font-family: "Poppins", sans-serif;
+}
+
+.hero{
+    min-height: 100vh;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: var(--black-bean);
+    color: white;
+}
+
+.header-container{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar__list-container{
+    display: flex;
+}
+
+.navbar__list-item{
+    margin-right: 2rem;
+}
+
+.navbar__link{
+    color: white;
+}
+
+.header{
+    min-height: 15vh;
+}
+
+.main{
+    display: block;
+    min-height: 85vh;
+    color: white;
+    background-color:var(--black-bean);
+}
