@@ -14,19 +14,26 @@ body{
 
 .sidenav{
     height: 100%;
-    width: 20vw;
+    width: 15vw;
     position: fixed;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
     z-index: 1;
     top: 0;
     left: 0;
     background-color: var(--black-bean);
     overflow-x: hidden;
     padding-top: 2rem;
-    box-shadow: 5px 5px 50px 0px rgba(0,0,0,0.25);
+    box-shadow: 5px 5px 5rem 0px rgba(0,0,0,0.5);
+}
+
+.sidenav a{
+    color: white;
 }
 
 .page-container{
-    margin-left: 20vw;
+    margin-left: 15vw;
 }
 
 .hero{
@@ -120,6 +127,51 @@ strong{
     color: var(--light-coral);
 }
 
+article{
+    margin-bottom: 8rem;
+}
+
+h3{
+    color: var(--selective-yellow);
+    font-size: 2.4rem;
+    margin-bottom: 2rem;
+    border-bottom: .2rem solid var(--selective-yellow);
+    padding-bottom: 2rem;
+}
+
+article li{
+    margin-bottom: 2rem;
+    text-align: left;
+    line-height: 1.8;
+}
+
+article ol li strong{
+    color: var(--selective-yellow);
+}
+
+ol{
+    list-style-position: inside;
+}
+
+article ol li::marker {
+    font-weight: 600;
+    color: var(--selective-yellow);
+}
+
+figure img{
+    width: 100%;
+    margin-bottom: .8rem;
+}
+
+figure{
+    text-align: center;
+    margin-bottom: 2.8rem;
+}
+
+figure a{
+    color: white;
+}
+
 .analisis{
     display: flex;
     justify-content: center;
@@ -138,4 +190,6 @@ strong{
     color: white;
 }
 
-
+.footer{
+    background-color: #250001;
+}
